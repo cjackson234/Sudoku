@@ -99,7 +99,7 @@ angular.module("app").controller('appController', function ($scope, $filter, $md
         $scope.confirmShowing = true;
         $mdDialog.show(confirm).then(function (result) {
             $scope.game.email = result;
-            saveGame().then((resp) => { });
+            saveGame().then(function(){ });
         }, function () {});
     };
 
