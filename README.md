@@ -1,6 +1,6 @@
 <h1>Sudoku Challenge</h1>
 
-Our next viral marketing challenge rewards the first guest to correctly solve a sudoku game with a free
+This was a code challenge presented to me for an interview.
 
 Write a single page web application that provides a simple sudoku interface.
 
